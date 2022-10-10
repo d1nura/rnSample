@@ -18,6 +18,7 @@ export const Input = ({
     return (
         <View style={style.view}>
             <TextInput
+                placeholder="Search"
                 onChangeText={(text) => setInputText(text)}
                 style={style.input}
             />
